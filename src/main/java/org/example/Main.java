@@ -39,5 +39,9 @@ public class Main {
             if(flower.equals("Тюльпан"))
                 System.out.println(flower);
         }
+        // 8) Новый список
+        List<String> flowers = new ArrayList<>();
+        flowers.retainAll(list);
+        System.out.println(flowers);
     }
 }
