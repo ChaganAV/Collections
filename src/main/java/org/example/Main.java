@@ -1,6 +1,8 @@
 package org.example;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -55,6 +57,9 @@ public class Main {
         // 9) Удалить из списка
         list.removeAll(flowers);
         System.out.println(list);
-        //
+        // *10) Сортировка
+        Collections.sort(list);
+        System.out.println(list);
+
     }
 }
